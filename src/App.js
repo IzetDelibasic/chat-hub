@@ -1,9 +1,11 @@
 import './App.css';
+import React from 'react';
+import { Auth } from './components/Auth';
 
 function App() {
   return (
     <div className="App">
-      Chat Hub - Chat with your friends
+      <Auth />
     </div>
   );
 }
