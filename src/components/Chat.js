@@ -3,6 +3,7 @@ import {addDoc, collection, onSnapshot, serverTimestamp, query, where, orderBy} 
 import { auth, db } from "../firebase-config"
 import '../styles/Chat.css';
 
+
 export const Chat = (props) => {
 
     const {room} = props; 

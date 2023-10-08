@@ -1,6 +1,5 @@
 .send-button {
-    border: 1px solid black;
-    border-radius: 2px;
+    border: none;
     padding: 10px;
     background: #00AA55;
     color: #fff;
