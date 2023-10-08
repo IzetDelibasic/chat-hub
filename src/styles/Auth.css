@@ -1,0 +1,14 @@
+.send-button {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px;
+    background: #00AA55;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.login{
+    margin-left: 40px;
+}

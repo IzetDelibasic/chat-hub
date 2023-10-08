@@ -6,11 +6,14 @@ import { Chat } from './components/Chat';
 const cookies = new Cookies();
 
 function App() {
-  const [isAuth, setIsAuth] = useState(cookies.get("auth-token"));
+  const authToken = cookies.get("auth-token");
+  const [isAuth, setIsAuth] = useState(authToken !== null && authToken !== undefined);
+
   const [room, setRoom] = useState(null);
 
   const roomInputRef = useRef(null);
 
+  console.log("isAuth value:", isAuth);
   if(!isAuth){
     return (
       <div className='App'> 

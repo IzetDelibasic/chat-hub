@@ -1,3 +1,7 @@
+*{
+  background-color: #CCCCCC;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -14,7 +18,7 @@ body {
 
 .app-header {
   text-align: center;
-  background-color: #3b5998;
+  background-color: #00AA55;
   color: white;
   width: 100%;
 }
@@ -38,7 +42,7 @@ body {
 .room input {
   width: 200px;
   height: 30px;
-  border: 2px solid #2352b8;
+  border: 2px solid #00AA55;
   border-radius: 6px;
   padding-left: 5px;
   font-size: 20px;
@@ -56,7 +60,7 @@ body {
   font-size: 20px;
   text-align: center;
   margin: 5px;
-  background-color: #2352b8;
+  background-color: #00AA55;
   color: white;
   cursor: pointer;
   margin-left: auto;
